@@ -1,0 +1,76 @@
+{
+    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+    // Pointez pour afficher la description des attributs existants.
+    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch modifier_location",
+            "request": "launch",
+            "mainClass": "modifier_location",
+            "projectName": "projet_java_ef859269"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Apropos",
+            "request": "launch",
+            "mainClass": "Apropos",
+            "projectName": "projet_java_ef859269"
+        },
+        {
+            "type": "java",
+            "name": "Launch Image",
+            "request": "launch",
+            "mainClass": "Image",
+            "projectName": "projet_java_ef859269"
+        },
+        {
+            "type": "java",
+            "name": "Launch Location",
+            "request": "launch",
+            "mainClass": "Location",
+            "projectName": "projet_java_ef859269"
+        },
+        {
+            "type": "java",
+            "name": "Launch Supprimer_loc",
+            "request": "launch",
+            "mainClass": "Supprimer_loc",
+            "projectName": "projet_java_ef859269"
+        }
+    ]
+}
